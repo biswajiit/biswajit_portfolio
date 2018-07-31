@@ -19,11 +19,10 @@
       <img class="profile-pic" src="assets/images/avtar.jpg">
       <h1 class="jumbotron-heading">{{name}}</h1>
       <p class="lead">{{detail}}</p>
-      <li>
-        <ul> git link </ul>
-        <ul> linkedin link </ul>
-        <ul> facebook link </ul>
-      </li>
+      <p class="lead">
+        <i class="fa fa-500px"></i>
+        <a [href]="gitLink" target="_blank">{{gitLink}}</a>
+      </p>
     </div>
   </section>
 </main>
